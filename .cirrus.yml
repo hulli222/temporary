@@ -5,7 +5,7 @@ task:
   persistent_worker:
     isolation:
       container:
-        image: apon77/aosp:ccache
+        image: Sha-zu/aosp:ccache
         cpu: 24
         memory: 60g
         volumes:
