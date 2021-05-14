@@ -5,8 +5,8 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 source build/envsetup.sh
-lunch aosp_mido-user
+lunch aosp_RMX1801-user
 m aex
 
 # upload rom
-rclone copy out/target/product/mido/AospExtended*.zip cirrus:mido -P
+rclone copy out/target/product/RMX1801/AospExtended*.zip cirrus:mido -P
